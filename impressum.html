@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="UTF-8">
 <title>IBS Abgabe</title>
@@ -16,22 +16,15 @@
          <a href="impressum.html">Impressum</a> 
       </div>
       <div class="pull-right">
-<form action="http://de.wikipedia.org/wiki" method="post" target="_blank" name="frmWiki">
-<table>
-<tbody><tr>
-<td>
-<a target="_blank" href="http://de.wikipedia.org/wiki/Hauptseite">Wikipedia
-</a>
-<input maxlength="255" size="25" name="xsearch">
-<input value="de" name="hl" type="hidden">
-</td>
-<td>
-<input onclick="window.document.frmWiki.action = 'http://de.wikipedia.org/wiki/' + document.frmWiki.xsearch.value;" value="Suche" name="btnG" type="submit">
-</td>
-</tr>
-</tbody></table>
-</form>
-      </div>
+<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+					<label> Wikipedia suche: <input type="text" name="search"
+						value="Suchwort"
+						onblur="if(this.value  == '') { this.value='Suchwort'}"
+						onfocus="if (true) { this.value=''}" /></label>  <input type="submit"
+						name="go" value="Artikel" /> <input type="submit" name="fulltext"
+						value="Volltext" />
+				</form>
+		</div>
     </div>
     
     <div class="jumbotron">

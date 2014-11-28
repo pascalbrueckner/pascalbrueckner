@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+h1 {
+	color: black;
+	font-size: 60px;
+}
+
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url('http://fotos.piqs.de/1/4/0/1/7/3e1371baad5f39787a65c280e9e551e3.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	 
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+.row .link {
+	font-size: 20px;
+	font-style: Arial;
+	color: #5a5a5a;
+	
+}
+ .row .link a{
+ 	margin-bottom: 100px;
+ 	text-aligin: center;	
+	font-size: 20px;
+	font-style: Arial;
+	color: #5a5a5a;
+		
+}
+p {
+	font-size: 15px;
+	
+}

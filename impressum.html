@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>IBS Abgabe</title>
+<title>Pascal Brueckner</title>
 
 <link rel="stylesheet" href="ibscss.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -20,9 +20,9 @@
 					<label> Wikipedia suche: <input type="text" name="search"
 						value="Suchwort"
 						onblur="if(this.value  == '') { this.value='Suchwort'}"
-						onfocus="if (true) { this.value=''}" /></label>  <input type="submit"
-						name="go" value="Artikel" /> <input type="submit" name="fulltext"
-						value="Volltext" />
+						onfocus="if (true) { this.value=''}" tabindex="1" /></label>  <input type="submit"
+						name="go" value="Artikel"tabindex="2" /> <input type="submit" name="fulltext"
+						value="Volltext" tabindex="3" />
 				</form>
 		</div>
     </div>
@@ -33,13 +33,24 @@
       </div>
     </div> 
 
-<div class="impressum">
-<h3>Inhaber:</h3> <p>Pascal-Andre Brueckner<p>
-<h3>Adresse:</h3> <p>Großer Steinweg 12</p>
-		 		  <p>35390 Gießen</p>
-<h3>Email-Adresse:</h3><p>pascal-andre.brueckner@mni.thm.de</p>
-
-
+<div class="row" >
+  <div class="col-md-1"></div>
+   <div class="col-md-4">
+		<div class="impressum">
+			<h3>Inhaber:</h3> <p>Pascal-Andre Brueckner<p>
+			<h3>Anschrift:</h3> <p>Großer Steinweg 12</p>
+					 		  <p>35390 Gießen</p>
+			<h3>Email-Adresse:</h3><p>pascal-andre.brueckner@mni.thm.de</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<h3>Bildernachweis</h3>
+		<h4>Foto auf Home und Impressum:<h4>
+		<p>Fotograf: Nikonvex</p>
+		<p> Lizens: <a href="http://creativecommons.org/licenses/by/2.0/de/deed.de">Some rights reserved</a></p>
+		<p>Quelle: <a href="http://piqs.de">www.piqs.de</a></p>
+	</div>
+	
 </div>
 
 </body>

@@ -12,6 +12,7 @@ h1 {
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+  
 }
 
 .nav li {
@@ -30,21 +31,25 @@ h1 {
   position: relative;
   top:100px;
 }
-.row .link {
+
+ .row .link {
 	font-size: 20px;
 	font-style: Arial;
-	color: #5a5a5a;
-	
+	color: #5a5a5a;	
+	padding-left: 40px;
 }
+
  .row .link a{
  	margin-bottom: 100px;
  	text-aligin: center;	
 	font-size: 20px;
 	font-style: Arial;
-	color: #5a5a5a;
-		
+	color: #5a5a5a;	
+	padding-left: 20px;
 }
+
 p {
-	font-size: 15px;
-	
+	font-size: 15px;	
 }
+
+
